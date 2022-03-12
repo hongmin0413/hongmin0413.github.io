@@ -1,0 +1,70 @@
+body {
+	background-color : #4fb482;
+	margin : 0px;
+}
+
+h1, h2 {
+	text-align : center;
+	text-shadow: 3px 3px 5px #000ECC;  /*offset-x | offset-y | blur-radius | color*/
+}
+
+.survey {
+	background-color : #ce894f;
+	width : 305px;
+	height : 260px;
+	font-family : "Microsoft JhengHei"; /*微軟正黑體*/
+	position : relative;
+	/*margin : 調整border外的邊界, padding : 調整border內的邊界*/
+	margin : 0 auto ; /*置中 */
+	padding : 25px;
+	border-radius : 20px; /*圓角弧度*/
+	box-shadow: 5px 5px 10px #2f4407; /*offset-x | offset-y | blur-radius | color*/
+	animation : moveUp 1s ease-out; /*ease-in : 由慢到快, ease-out : 由快到慢*/
+}
+
+.result, .finish {
+	width : 280px;
+	height : 130px;
+	margin : 0 auto ; /*置中 */
+	padding : 25px;
+}
+
+.result {
+	border : 1px solid black; /*width | style | color*/
+	border-radius : 20px; /*圓角弧度*/
+	box-shadow: 1.5px 1.5px 5px black;
+}
+
+span {
+	line-height : 40px; /*文字行距*/
+}
+
+#name, #birthday, #occupation, button {
+	border : 1.5px solid #8E00BD;
+	border-radius : 15px;
+	box-shadow: 1.5px 1.5px 5px #540085;
+}
+
+#occupation, button {
+	margin-bottom : 30px;
+	width : 100px;
+	height : 30px;
+	cursor : pointer;
+}
+
+#first {
+	margin-left : 40px;
+}
+
+#second {
+	margin-left : 80px;
+}
+
+#name:focus {
+	outline-color : red;
+}
+
+@keyframes moveUp{
+	0% {opacity : 0; top : 100px; }
+	100% {opacity : 1; top : 0px; }
+}

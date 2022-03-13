@@ -1,3 +1,15 @@
-h1 {
-    border: 1px solid black;
+div {
+	border-radius : 10%;
+}
+
+.first .left::before {
+	content : "   ";
+	display : block;
+	height : 75px;
+}
+
+.first .right::before {
+	content : "   ";
+	display : block;
+	height : 38px;
 }

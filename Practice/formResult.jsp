@@ -6,7 +6,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=0.8"> <!-- 控制螢幕的寬度和縮放比例 -->
 		<title>Result</title>
-		<link rel = "stylesheet" href = "form.css">
+		<link rel = "stylesheet" href = "css/form.css">
 	</head>
 	
 	<body>
